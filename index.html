@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        .header{
+            overflow: hidden;
+        }
+        header :hover a{
+            text-decoration: underline;
+        }
+        .buttonn{
+            width: 170px;
+            height: 40px;
+            border-radius: 2em;
+            font-size: 1em;
+            font-weight: 600;
+            text-align: center;
+
+        
+
+        }
+        div.links a{
+    text-decoration: none;
+    color: black;
+    
+}
+.links a:hover{
+    text-decoration: underline;
+    color: #e03131;}
+        section.introduction{
+    /* font-size: 46px; */
+display: flex;
+border: 1px;
+width: 85%;
+height: 43Opx;
+margin-inline: auto;
+justify-content: space-between;
+/* background-color: blue; */
+
+
+}
+.button{
+    background-color: #e03131;
+    font-size: 1em;
+    width: 170px;
+    height: 40px;
+    border-radius: 2em;
+    color: #fff;
+    font-size: 1.3em;
+    border: 1px;
+}
+section.services{
+     /* font-size: 46px; */
+display: flex;
+/* justify-items: last baseline; */
+border: 1px;
+width: 85%;
+height: 350px;
+margin-inline: auto;
+justify-content: first baseline;
+/* background-color: olivedrab; */
+
+}
+section.section2{
+    
+display: flex;
+justify-content: space-between;
+border: 1px;
+width: 85%;
+height: 430px;
+margin-inline: auto;
+justify-content: first baseline;
+/* background-color: yellow; */
+align-items: center;
+gap: 2em;
+}
+section.section3{
+    display: flex;
+    justify-content: first baseline;
+    border: 1px;
+width: 85%;
+height: 430px;
+margin-inline: auto;
+align-items: center;
+gap: 3em;
+/* background-color: blue; */
+}
+section.section4{
+    border: 1px;
+width: 85%;
+height: 200px;
+margin-inline: auto;
+ /* background-color: #e03131;  */
+
+}
+section.subdiv{
+    display: flex;
+    justify-content: first baseline;
+    border: 1px;
+width: 85%;
+height: 430px;
+margin-inline: auto;
+/* background-color: aqua; */
+align-items: center;
+gap: 6em;
+
+
+}
+section.section5{
+    border: 1px;
+width: 85%;
+height: 500px;
+margin-inline: auto;
+display: flex;
+justify-content: first baseline;
+align-items: center;
+gap: 6em;
+/* background-color: #29292c; */
+}
+section.section6{
+    /* width: 100%; */
+    height: 350px;
+    background-color: #f0f0f8;
+    /* margin-left: 10%; */
+
+    
+}
+     section.section7{
+        border: 1px;
+width: 85%;
+height: 650px;
+margin-inline: auto;
+/* justify-content: first baseline; */
+/* background-color: blue; */
+display: flex;
+gap: 5em;
+align-items: center;
+     }
+     .section8{
+        border: 1px;
+width: 85%;
+height: 550px;
+margin-inline: auto;
+/* justify-content: first baseline; */
+/* background-color: blue; */
+display: flex;
+gap: 5em;
+align-items: center;
+
+     }
+section.a :hover{
+    text-decoration: underline;
+    color: #e03131;
+}
+section.a{
+    color: #e03131;
+}
+button.a :hover{
+    text-decoration: underline;
+}
+.abutton{
+    color: #fff;
+}
+.burger{
+    /* display: none; */
+}
+.searchbar{
+    display: none;
+    
+}
+
+
+    .link{
+        display: none;
+    }
+    .fafasearch{
+        display: block;
+    }
+    .a button{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .abutton{
+        display: none;
+    }
+ .burger{
+    display: block;
+    
+ }   
+ .searchbar{
+    display: block;
+    align-content: center;
+ }
+section.section8{
+    border: 1px;
+width: 85%;
+height: 550px;
+margin-inline: auto;
+}
+.section9{
+    border: 1px;
+width: 85%;
+height: 500px;
+margin-inline: auto;
+/* justify-content: first baseline; */
+/* background-color: blue; */
+/* display: flex; */
+gap: 5em;
+/* align-items: center; */
+    
+
+}
+section.section10{
+    background-color:  #f0f0f8;
+    justify-content: space-evenly;
+    /* padding-top: 40em; */
+    height: 400px;
+}
+section.foot{
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+    .btnsearch{
+        border: none;
+    }
+    .btnsearch:hover{
+        border: 2px solidse
+         #29292c;
+    }
+    .burger{display: none;}
+    @media (max-width:800px) {
+       section.introduction, section.section2, section.section3, section.section4, section.section5, section.otherserv, section.section6, section.services, section.section7, section.section8, section.section9, section.section10,.searchbar, .footerAddress,.footerarea.anchorlinks,.anchortags.footeranchorlinks,.footercontacts , .burger{
+           display: block;
+           min-width: 100%;
+           margin-inline: auto;
+           
+           
+           
+           height:100%;
+
+    } 
+    .button{
+        display: none;
+        
+    }
+    .searchbar{
+        display: block;
+        align-content: center;
+        
+        
+    }
+    .buttonn{
+        display: none;}
+    .links{
+        display: none;}
+        
+        .searchbar{
+            display: block;
+            align-content: center;
+        }
+        .burger{display: block;}
+        
+    }
+
+.footerAddress{
+    display: flex; 
+    justify-content: space-between;
+}
+.footerarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer{
+    background-color: #29292C;
+}
+.anchortags{
+    color: white;
+    font-size: 21px;
+}
+.searchbar{display: none;}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    
+}
+
+    </style>
+
+</head>
+<body>
+    <header class="header" style="width: 100%;">
+    <div class="container-fluid  pt-3 ps-5 d-flex pe-5 align-items-center justify-content-between  gap-4 header ">
+        <div class=" text-danger fs-4 fw-semibold "><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 65.19 65.19" role="img" aria-labelledby="ap8f9m05tmkwsr0j2n73bl886zliahjt" class="logo-ralph-only"><title id="ap8f9m05tmkwsr0j2n73bl886zliahjt ">thoughtbot</title><defs><style>.cls-1{fill:#e03131;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><path class="cls-1" d="M32.6,65.19A32.6,32.6,0,1,0,0,32.6,32.59,32.59,0,0,0,32.6,65.19Z"></path><path class="cls-2" d="M33,7.55a10.48,10.48,0,0,1,7.62,3l.8-1.16A11.9,11.9,0,0,0,33,6.15a11.94,11.94,0,0,0-8.44,3.21l.8,1.16A10.48,10.48,0,0,1,33,7.55Zm5.32,4.51a8.62,8.62,0,0,0-5.24-1.65h0a8.61,8.61,0,0,0-5.23,1.65,6,6,0,0,0-.87.8l-.81-1.17A9.59,9.59,0,0,1,33.11,9a9.67,9.67,0,0,1,6.8,2.56l-.8,1.17A6.23,6.23,0,0,0,38.35,12.06ZM33,13.39A6.53,6.53,0,0,1,37.52,15l.81-1.16a8.37,8.37,0,0,0-10.62,0l.81,1.17A6.52,6.52,0,0,1,33,13.39ZM23.12,35.12v9.37a3.1,3.1,0,0,1,.73,1.94,3.05,3.05,0,0,1-1.05,2.31L22,47.92a1.86,1.86,0,0,0,.73-1.48,1.83,1.83,0,1,0-3.65,0,1.86,1.86,0,0,0,.72,1.47l-.8.82a3,3,0,0,1-1.06-2.29,2.9,2.9,0,0,1,.68-1.95V29.94a1.1,1.1,0,0,1,1.05-1H45.93a1.11,1.11,0,0,1,1.06,1V44.5a3.34,3.34,0,0,1,.68,1.94,3,3,0,0,1-1.05,2.29l-.81-.81a1.9,1.9,0,0,0,.72-1.48,1.83,1.83,0,1,0-2.93,1.48l-.8.82a3,3,0,0,1-1.06-2.3,3.31,3.31,0,0,1,.73-1.95V35.2H41.19V54.87l.76.5V57H33.14V55.37l1-.48V48.81H31.56v6.06l.9.5V57H23.57V55.37l.91-.5V35.12Zm3.09-18.58H39.56a1,1,0,0,1,1,1V26.4a1,1,0,0,1-1,1H26.21a1,1,0,0,1-1-1V17.56A1,1,0,0,1,26.21,16.54ZM29.48,23a1.73,1.73,0,1,1,1.7-1.72A1.71,1.71,0,0,1,29.48,23Zm5.12-1.72A1.72,1.72,0,0,0,36.31,23h0a1.73,1.73,0,1,0-1.71-1.72Zm-4.25,0a.87.87,0,1,1-.87-.89.9.9,0,0,1,.62.26A.93.93,0,0,1,30.35,21.31Zm5.09,0a.87.87,0,1,0,1.74,0,.87.87,0,1,0-1.74,0Z"></path></svg>thoughtbot</div>
+        <div class="row links">
+            <div style=" display: flex; gap: 10px;">
+                <a href="">Services <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true" class="chevron">
+                    <path d="M1.62072 0.818115L0.560059 1.87878L5.86335 7.1821L11.1666 1.8788L10.106 0.818137L5.86336 5.06076L1.62072 0.818115Z" fill="currentColor"></path>
+                    </svg></a>
+                <a href="">Case Studies</a>
+                <a href="">Blog</a>
+                <a href="">Resources <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true" class="chevron">
+                    <path d="M1.62072 0.818115L0.560059 1.87878L5.86335 7.1821L11.1666 1.8788L10.106 0.818137L5.86336 5.06076L1.62072 0.818115Z" fill="currentColor"></path>
+                    </svg></a>
+            </div>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+           <!-- <a sty href=""><i class="fa fa-search" aria-hidden="true"></i></a> -->
+           <button class="btnsearch" style="width: 50px; height: 50px; border-radius: 50%;">
+                <a href=""><i style="color: black;" class="fa fa-search" aria-hidden="true"></i></a>
+                <div class="searchbar"><input type="text" name="search" id="mobile-search" placeholder="Enter search term..." class="st-default-search-input" autocomplete="off" autocorrect="off" autocapitalize="off"></div>
+                <div class="abutton">
+           
+            <button type="button" class="btn btn-danger btn-lg pb-4 buttonn">Let's get started!</button>
+            <div class="burger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+            </div>
+            <!-- <div class="burger"><i class="fa fa-bars" aria-hidden="true"></i></div> -->
+        </div><br>
+        </header>
+            <br><br><br><br>
+
+            
+        
+    </div>
+    <div>
+        <section class="introduction">
+
+            <div style="width: 100%;">
+                <h1 style="font-size: 46px; font-weight: bolder;">Let’s make your <br>product and team <br>a success</span></h1>
+                thoughtbot is your expert partner for strategy, design, product <br> management, and development. We bring digital products <br>from idea to success and teach you how because we care. It’s <br> time to move beyond simply building features and start <br> designing the right product with the right strategy. <br> <br>
+            <button class="button">Let’s talk</button></div>
+                
+                
+               <div><img class="hero__image" height="400" width="400" alt="collage of 3 images: person standing in front of an idea board, a group of people working through an idea, a desk with organized sticky notes" src="https://images.prismic.io/thoughtbot-website/e6462524-a486-424f-81db-48be21d0724a_Collage+18.png?auto=compress,format&amp;rect=311,0,1350,1080&amp;w=1350&amp;h=1080"></div>
+               
+            </section><br><br>
+            <section class="container services">
+                <div><h5 style="font-weight: 200; font-size: 1em;">OUR SERVICES</h5><p>
+                    <h1 style="font-size: em;">Your expert partners for building mission-driven <br> products</h1>
+                </p>
+            <a href="" style="font-size: 1.2em; color: red;">Learn more about our services</a><br>
+            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: #e03131;"></i>
+        </div>
+        <div>
+            <h6>Specialty teams for every stage of your business</h6>
+            <ul class="otherserv">
+                <li style="color: #494a51;"><a href="" style="color: #494a51; font-size: 1.2em;">Rapid validation & early product strategy </a></li>
+                <li  style="color: #494a51;"><a href=""  style="color: #494a51; font-size: 1.2em;">Building a new product & roadmap planning
+                </a></li>
+                <li style="color: #494a51;"><a href="" style="color: #494a51; font-size: 1.2em;">Team augmentation & <br> process improvement</a></li>
+                <li style="color: #494a51;"><a href="" style="color: #494a51; font-size: 1.2em;">DevOps, Cloud, CI/CD</a></li>
+            </ul>
+        </div>
+    
+            </section><br><br><br><br>
+        
+               <section class="container section2">
+                <div><h5 style="font-size: 0.4emem; color: #67676E;">OVER 1,000+ POSITIVE OUTCOMES</h5>
+                    <br>
+                  <h2><p style="font-size: 1.6m; Color: #29292c; font-weight: 800;">Our Clients</p></h2>
+                    
+                   <p style="font-size: 1.2em;">We are proud to partner with clients of all stages, sizes <br>
+                    and industries on meaningful work. <p></p>
+                    <br>
+                    <p></p>
+                    
+                   <a href="" style="color: #e03131; font-size: 1.2em;" >Here are there stories</a><br>
+                   <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i>
+                    
+                    
+                </div>
+                <div><img height="400" loading="lazy" width="400" alt="" src="https://thoughtbot-website.cdn.prismic.io/thoughtbot-website/f5f3fe2a-7d24-42bd-981f-a70e8b8d2e81_Logo-Grid_V2.svg"></div>
+               </section><br><br><br><br><br><br><br><br><br><br>
+                <section class="container section3">
+                    <div><img height="420" loading="lazy" width="600" alt="collage of 3 images: person working at a laptop in a garden, board with project documents pinned to it, and a collection of thoughtbot coffee mugs" src="https://images.prismic.io/thoughtbot-website/dd2f4cfd-e63f-41f9-9f94-7c2c1b63689f_4.png?auto=compress,format"></div>
+                    <div><br>
+                       <h5 style="font-size: 0.7emem; color: #67676E;">SERVICE HIGHLIGHT</h5>
+                       <h2><p style="font-size: 1.3em; Color: #29292c; font-weight: 600;">Navigate, pivot and grow <br> with confidence</p></h2> <br> <br>
+                       <p style="font-size: 1em; font-weight: bolder; color: #494a51;">The best decisions are made through quality research and <br>strategic insights. If you have an opportunity you are looking <br> to take advantage of, a problem you are trying to solve or a <br> desire to more successfully embrace big ideas, we can help <br> you uncover the right path forward. <br><br>
+    
+     <a href="" style="color: #e03131; font-size: 1.2em;" >Learn how to embrace innovation & stay competitive </a></p>
+     <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i>
+    
+                    </div>
+                    
+                </section><br><br><br>
+                <section class="container section4"><br><br>
+                      <h5 style="font-size: 0.7emem; color: #67676E;">STARTUPS, SCALE-UPS, AND BEYOND </h5>
+                      <h2><p style="font-size: 1.2em; Color: #29292c; font-weight: 600;">Positive outcomes for hundreds of web and mobile <br> projects like yours <br></p></h2><br>
+                    <br>
+                </section><br><br>
+                <section class="subdiv">
+                    <div style="font-size: 1.1em; "><br>
+                        <img height="400" loading="lazy" width="500" class="cards-grid__image u-pointer" onclick="location.href='/case-studies/HBR-new-mobile-app'" alt="HBR logo in front of an image of a person holding a phone with the HBR mobile app." src="https://images.prismic.io/thoughtbot-website/22dde4fc-7ba5-4547-9b72-07482fc94d94_case-study-card__HBR.jpg?auto=compress,format">
+                        <br>
+                      <b>HBR</b>— Future-proofing Harvard Business Review to inspire <br> the next generation of global business leaders. <br>
+                      <a href="" style="color: #e03131; font-size: 1em;" >Read the case study</a></p>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i><br><br><br>
+     
+                   
+                    </div>
+                    <div><img height="400" loading="lazy" width="500" class="cards-grid__image u-pointer" onclick="location.href='https://thoughtbot.com/case-studies/digitalocean'" alt="The Digital Ocean logo in the center of a blue background with faded out screenshots of the Digital Ocean product along the edges of the image" src="https://images.prismic.io/thoughtbot-website/40b948d6-b236-4a39-89f8-d067b18963ca_case-study-card__digital-ocean.jpg?auto=compress,format"> <br>
+                      <b>Digital Ocean —</b> Remedy CMS blockers for faster site <br> publishing and iterations. <br>
+                      <a href="" style="color: #e03131; font-size: 1.2em;" >Read the case study</a></p>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: rgb(156, 8, 8)"></i><br><br>
+     
+    
+    
+                    
+                    </div>
+                </section>
+                <br><br>
+                <section class="section5">
+                    <div><img height="400" loading="lazy" width="500" class="cards-grid__image u-pointer" onclick="location.href='https://thoughtbot.com/case-studies/closeknit'" alt="CloseKnit logo is centered on a purple background above an illustration of medical professionals." src="https://images.prismic.io/thoughtbot-website/dee4f34d-9119-4eec-9be3-974af6ea0d19_case-study-card__Closeknit.png?auto=format,compress">
+                        <br>
+                       <b>MBTA—</b>Conduct research to uncover a technology intiative <br> to improve communication and workflows. <br>
+                       <a href="" style="color: #e03131; font-size: 1.2em;" >Read the case study</a></p>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i><br>
+     
+                    
+     
+                    </div>
+    
+                    <div>
+                        <img height="400" loading="lazy" width="500" class="cards-grid__image u-pointer" onclick="location.href='/case-studies/groups-recover-together'" alt="" src="https://images.prismic.io/thoughtbot-website/33afb841-a54d-48d7-9dee-f2c2990eef61_case-study-card__Groups.png?auto=compress,format">
+                        <br>
+                       <b>Groups Recover Together —</b>Increasing access to effective <br> opioid-addiction care through a new digital platform. <br>
+                       <a href="" style="color: #e03131; font-size: 1.2em;" >Read the case study</a></p>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i><br>
+    
+    
+    
+    
+    
+                    </div>
+                </section>
+                <br><br>
+                <section class="section6"> 
+                    <div class="p-5">
+                      <b> “
+    Working with thoughtbot was an exceptional experience.</b> I can’t say <br>enough great things about the entire team, their process, their workflow,  <br>and the quality of the code. They have a talented team of designers and <br>developers working there.
+                    </div>
+                    <br>
+                    <div style="display: flex; gap: 15em; margin-inline: auto;" >
+                    <div class="ps-5 quoteauthor" style="display: flex; gap: 0.9em; margin-left: 0.8em ; margin-right: p-5">
+                        <img style="border: 1px; border-radius: 50%;" alt="" class="quote__author avatar quote__author-avatar" height="45" loading="lazy" width="45" src="https://images.prismic.io/thoughtbot-website/b76b5a91-5a64-454c-b608-5d788172c830_Vail+Weymann.jpg?auto=compress,format ">
+                        <p><b>Vail Weymann </b> <br>
+                            CEO, EdgyPet</p>
+    
+                    </div>
+                    <div><a href="" style="color: #e03131; font-size: 1.2em;" >Read the case study</a></p>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i><br>
+       </div>
+                </div>
+    
+                </section>
+                <br> <br>
+                <section class="section7">
+                    <div>
+                             <h5 style="font-size: 0.7emem; color: #67676E;"> ONLINE WORKSHOPS AND EVENTS <br></h5>
+                    
+                             <h2><p style="font-size: 1em; Color: #29292c; font-weight: 600;">Watch online workshops that <br>
+                                unstick your product strategy,<br> level-up your team, and <br> uncover next steps</p> </h2><br> 
+    
+     Join the thoughtbot team and our special guests as we tackle <br> today’s biggest product challenges. During our workshops, we <br> cover the latest from the latest on how COVID-19 is impacting <br> our product, design and development process to thoughtbot's <br> tried and true process.  <p>
+        <br> 
+          
+            <a href="" style="color: red;" font-size: 1.2em;>Check out our events</a></p>
+            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i>
+            </div>
+                    
+    
+                    <div>
+                        <img height="400" loading="lazy" width="530" alt="Two presentation screens with video of the speakers in the top right corner and hand-drawn elements overtop" src="https://images.prismic.io/thoughtbot-website/08e35863-dc70-4512-870d-9cc787855559_homepage+events.png?auto=compress,format">
+    
+                    </div>
+                    
+                </section>
+                <section class="section8">
+                    <div>
+                        <img height="500" loading="lazy" width="450" alt="collage of 3 images: person drawing a user interface mockup, white board with sticky notes, and a laptop next to a paper notebook" src="https://images.prismic.io/thoughtbot-website/78f46a58-c902-4396-8bc2-f85a0df3ca0f_17.png?auto=compress,format">
+                    </div>
+                    <div>
+                        <h6 style="font-size: 0.7emem; color: #67676E;">OUR COMPANY<br></h6>
+                        <h2><p style="font-size: 1.2em; Color: #29292c; font-weight: 600;">Purpose-driven teams</P></h2>
+Our team is driven by our purpose and values; we continually <br>improve our process, do our best work in strong partnerships <br> with you, and transparently share how we work. We now have <br>teammates located throughout the Americas, Europe, West Asia,<br> and Africa enabling us to take on client projects around the world. <br>
+<a href="" style="color: red;" font-size: 1.2em;>Learn more about our company</a></p>
+            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i>
+                    </div>
+                     
+                </section>
+                <section class="section9">
+                    <div>
+                        <h6 style="font-size: 0.7emem; color: #67676E;">RESOURCES FOR ENTREPRENEURS, DESIGNERS, AND DEVELOPERS<br></h6>
+
+                       <h2><p style="font-size: 1.2em; Color: #29292c; font-weight: 600;"> Reap the rewards of everything we’ve learned while building successful products</p></h2>
+                      
+                
+
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div><h6 style="font-size: 1.7em;">purpose-built</h6>Actionable advice for entrepreneurs <br> who want to build products people love. <br><a href="" style="color: red;" font-size: 1.2em;>Dive into our resources</a></p>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i></div>
+                        <div><h6 style="font-size: 1.7em;">Design Sprint Guide</h6>
+                            Our guide to conducting and facilitating <br> Product Design Sprints. <br>
+                            <a href="" style="color: red;" font-size: 1.2em;>Start your sprint</a></p>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i></div>
+                        
+                        
+                            
+                        <div><h6 style="font-size: 1.7em;">Upcase</h6>
+                            Become an experienced developer and <br> take “junior” out of your title.<br>
+                            <a href="" style="color: red;" font-size: 1.2em;>Learn from the experts</a></p>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-5 sub9">
+                        <div><h6 style="font-size: 1.7em;">our Playbook </h6>
+                            Our documented approach to making <br> successful web and mobile products. <br>
+                            <a href="" style="color: red;" font-size: 1.2em;>Discover a better way of working</a></p>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i></div>
+                        <div><h6 style="font-size: 1.7em;">our Blog</h6>
+                            The latest design, development, and <br> product tools, techniques and more. <br>
+                            <a href="" style="color: red;" font-size: 1.2em;>Stay current on best practices</a></p>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i></div>
+                        <div>
+                            <h6 style="font-size: 1.7em;">Giant Robots Smashing Into <br> Other Giant Robots Podcast</h6>
+                            A podcast about the design, <br> development, and business of great <br> software. <br>
+                            <a href="" style="color: red;" font-size: 1.2em;>Listen and subscribe</a></p>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i>
+                        </div>
+                    </div>
+                    
+                        
+                    
+                
+                    
+                    
+
+                </section>
+                <br><br><br><br><br>
+                <section class="container-fluid mt-5 p-5 d-flex justify-content-between align-content-center section10 ">
+                    <div><img height="250" loading="lazy" width="500" alt="coworking photo with thoughtbot logo" src="https://images.prismic.io/thoughtbot-website/ea6d3d77-599c-434c-908a-654e01f5282a_incubator_image.png?auto=compress,format"></div>
+                    <div>
+                        <h6 style="font-size: 0.7emem; color: #67676E;">New</h6>
+                        <h2><p style="font-size: 1.5em; Color: #29292c; font-weight: 600;">thoughtbot Incubator</P></h2>If you are a founding team with a business idea that involves a <br> web or mobile app, we encourage you to apply for our 8-week <br> program. We’ll help you get the proof points you need in order <br> to move forward with confidence. Visit the Incubator page to <br> subscribe to updates and see when the next session opens <br> for applications. <br>  <a href="" style="color: red;" font-size: 1.2em;>Learn more</a></p>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true" style="color: red"></i></div>
+
+
+                </section>
+                <section class="container-fluid bg-danger foot d-flex">
+                    <div> <h2 style="font-size: 1.9em; Color: white; font-weight: 600 "></p>what does success look like for your project?</h2> </div>
+                 <div><button class="button bg-light text-danger">Let’s talk</button></div>
+                </section>
+                <div>
+                    <section class="section11">
+                        <div>
+                            
+                        </div>
+
+
+                    </section>
+
+                    
+                    
+                    <div class="container-fluid footer">
+                        <div class="container footerarea">
+                            <div style="width: 100%">
+                                <svg style="width: 50%; height:100%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 223.99 54.95" role="img" aria-labelledby="at3hyx1v3dw66234l8cmh6u1wxfwa2qa" class="footer__logo"><title id="at3hyx1v3dw66234l8cmh6u1wxfwa2qa"><fontsninja-text id="fontsninja-text-400" class="fontsninja-family-27774">thoughtbot</fontsninja-text></title><defs><style>.cls-1{fill:#e03131;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><g><path class="cls-1" d="M95.46,35.46H91.75V26.7A6.38,6.38,0,0,0,91,23.13,3.05,3.05,0,0,0,88.31,22a4.07,4.07,0,0,0-3.45,1.6V35.46H81.15V10.88h3.71v9.44a5.78,5.78,0,0,1,3.81-1.45q6.8,0,6.79,7.84v8.75Zm2.66-8.13A9.63,9.63,0,0,1,98.69,24a7.82,7.82,0,0,1,1.64-2.69,7.67,7.67,0,0,1,2.59-1.78,8.49,8.49,0,0,1,3.4-.66,8.35,8.35,0,0,1,3.38.66,7.68,7.68,0,0,1,2.58,1.8A8.2,8.2,0,0,1,113.93,24a9,9,0,0,1,.59,3.31,9.47,9.47,0,0,1-.57,3.31,8.28,8.28,0,0,1-1.64,2.69,7.72,7.72,0,0,1-2.59,1.8,8.66,8.66,0,0,1-3.4.65,8.57,8.57,0,0,1-3.41-.65,7.64,7.64,0,0,1-4.22-4.46,9.52,9.52,0,0,1-.58-3.34Zm3.8,0a6,6,0,0,0,1.17,3.9,4.35,4.35,0,0,0,6.47,0,6.06,6.06,0,0,0,1.16-3.9,6,6,0,0,0-1.16-3.88,4.37,4.37,0,0,0-6.47,0,5.93,5.93,0,0,0-1.17,3.88Zm29.37,8.13h-3.41l-.16-1.22a5.52,5.52,0,0,1-3.91,1.54q-6.63,0-6.63-7.63v-9h3.71v8.71a6.24,6.24,0,0,0,.82,3.59,3,3,0,0,0,2.59,1.14,3.86,3.86,0,0,0,3.29-1.51V19.17h3.7V35.46Zm10.13,8.19a13,13,0,0,1-3.35-.39,7.67,7.67,0,0,1-2.39-1.07,4.79,4.79,0,0,1-1.45-1.54,3.79,3.79,0,0,1-.49-1.85q0-2.4,2.76-3.64a2.42,2.42,0,0,1,.16-4.56,6,6,0,0,1-2.59-5.27,7,7,0,0,1,.46-2.57,5.73,5.73,0,0,1,1.31-2.05,6.18,6.18,0,0,1,2.09-1.35,7.55,7.55,0,0,1,2.77-.49,7,7,0,0,1,3.84,1.05,8,8,0,0,1,3.64-.79H149l-.29,2.39h-1.25a9.94,9.94,0,0,0-1.25.1,6.13,6.13,0,0,1,1.15,3.67,7,7,0,0,1-.44,2.48,5.87,5.87,0,0,1-1.3,2.05,6.08,6.08,0,0,1-2.08,1.39,7.21,7.21,0,0,1-2.78.51,8.27,8.27,0,0,1-1.9-.2.77.77,0,0,0-.49.66.64.64,0,0,0,.21.49,2,2,0,0,0,.71.36,9.9,9.9,0,0,0,1.33.31c.55.1,1.26.2,2.11.31s1.47.25,2.23.43a8.07,8.07,0,0,1,2.1.78,4.78,4.78,0,0,1,1.58,1.38,3.91,3.91,0,0,1,.69,2.2,4.39,4.39,0,0,1-2.07,3.78,10.22,10.22,0,0,1-5.84,1.43Zm-.72-22a3,3,0,0,0-2.41,1,4,4,0,0,0-.84,2.66A3.89,3.89,0,0,0,138.3,28a3,3,0,0,0,2.43,1,3,3,0,0,0,2.41-1,4,4,0,0,0,.84-2.68,3.87,3.87,0,0,0-.86-2.64,3.06,3.06,0,0,0-2.42-1Zm.88,14.72-2.26-.33a4.17,4.17,0,0,0-1.71,1A2,2,0,0,0,137,38.5a2,2,0,0,0,1.15,1.79,6.34,6.34,0,0,0,3.21.67,7.19,7.19,0,0,0,3.33-.66,1.92,1.92,0,0,0,1.27-1.7,1.54,1.54,0,0,0-1.12-1.43,13.8,13.8,0,0,0-3.22-.77Zm45.73-.63a6.31,6.31,0,0,1-4.33-1.6l-.13,1.28h-3.44V10.88h3.71v9.4a6.13,6.13,0,0,1,4.2-1.41,7.61,7.61,0,0,1,3.21.66A7.14,7.14,0,0,1,193,21.31,8.1,8.1,0,0,1,194.57,24a10.3,10.3,0,0,1,0,6.64A7.94,7.94,0,0,1,193,33.32a7.28,7.28,0,0,1-2.46,1.81,7.94,7.94,0,0,1-3.26.65ZM187,22a3.57,3.57,0,0,0-3,1.41,6.28,6.28,0,0,0-1.08,3.9,6.34,6.34,0,0,0,1.08,4,3.57,3.57,0,0,0,3,1.39,3.74,3.74,0,0,0,3.13-1.49,6.07,6.07,0,0,0,1.17-3.85,6.11,6.11,0,0,0-1.15-3.84A3.79,3.79,0,0,0,187,22ZM165.27,35.46h-3.71V26.7a6.29,6.29,0,0,0-.79-3.57A3,3,0,0,0,158.11,22a4,4,0,0,0-3.44,1.6V35.46H151V10.88h3.7v9.44a5.78,5.78,0,0,1,3.81-1.45q6.79,0,6.79,7.84v8.75Zm11.37-2.72-.33,3h-2.82a5.1,5.1,0,0,1-1.91-.32,4,4,0,0,1-1.36-.89,3.46,3.46,0,0,1-.8-1.31,4.82,4.82,0,0,1-.27-1.64V22.18h-2.46l.33-3h2.14V14.32l3.7-.39v5.24h3.81v3h-3.81v7.74a13.12,13.12,0,0,0,.07,1.59,1.3,1.3,0,0,0,.33.83,1.27,1.27,0,0,0,.82.33,12.32,12.32,0,0,0,1.54.07Zm20.47-5.41a9.63,9.63,0,0,1,.57-3.33,7.82,7.82,0,0,1,1.64-2.69,7.71,7.71,0,0,1,2.6-1.78,8.44,8.44,0,0,1,3.39-.66,8.32,8.32,0,0,1,3.38.66,7.68,7.68,0,0,1,2.58,1.8A8.39,8.39,0,0,1,212.93,24a9.66,9.66,0,0,1,0,6.62,8.11,8.11,0,0,1-1.64,2.69,7.62,7.62,0,0,1-2.59,1.8,9.24,9.24,0,0,1-6.81,0,7.86,7.86,0,0,1-2.57-1.79,7.73,7.73,0,0,1-1.64-2.67,9.3,9.3,0,0,1-.58-3.34Zm3.8,0a6,6,0,0,0,1.17,3.9,4.34,4.34,0,0,0,6.46,0,6,6,0,0,0,1.17-3.9,5.93,5.93,0,0,0-1.17-3.88,4.36,4.36,0,0,0-6.46,0,5.93,5.93,0,0,0-1.17,3.88Zm23,5.41-.33,3H220.8a5.08,5.08,0,0,1-1.9-.32,3.87,3.87,0,0,1-1.36-.89,3.46,3.46,0,0,1-.8-1.31,4.82,4.82,0,0,1-.27-1.64V22.18H214l.33-3h2.13V14.32l3.71-.39v5.24H224v3h-3.81v7.74a13.12,13.12,0,0,0,.07,1.59,1.3,1.3,0,0,0,.33.83,1.27,1.27,0,0,0,.82.33,12.32,12.32,0,0,0,1.54.07h1Zm-145.45,0-.33,3H75.35a5.1,5.1,0,0,1-1.91-.32,4,4,0,0,1-1.36-.89,3.46,3.46,0,0,1-.8-1.31A4.82,4.82,0,0,1,71,31.62V22.18H68.55l.33-3H71V14.32l3.71-.39v5.24h3.81v3H74.72v7.74a13.12,13.12,0,0,0,.07,1.59,1.3,1.3,0,0,0,.33.83,1.27,1.27,0,0,0,.82.33,12.32,12.32,0,0,0,1.54.07h1"></path></g><g><path class="cls-1" d="M27.47,55A27.48,27.48,0,1,0,0,27.47,27.48,27.48,0,0,0,27.47,55Z"></path><g><path class="cls-2" d="M27.84,6.37a8.81,8.81,0,0,1,6.42,2.48l.68-1a10.05,10.05,0,0,0-7.1-2.7,10,10,0,0,0-7.11,2.71l.67,1A8.85,8.85,0,0,1,27.84,6.37Zm4.48,3.79a7.27,7.27,0,0,0-4.41-1.39h0a7.27,7.27,0,0,0-4.41,1.39,4.71,4.71,0,0,0-.73.68l-.69-1a8.12,8.12,0,0,1,5.83-2.26,8.13,8.13,0,0,1,5.73,2.17l-.68,1A6.07,6.07,0,0,0,32.32,10.16Zm-4.48,1.12a5.49,5.49,0,0,1,3.79,1.4l.68-1a6.67,6.67,0,0,0-4.47-1.6,6.66,6.66,0,0,0-4.48,1.6l.68,1A5.45,5.45,0,0,1,27.84,11.28ZM19.49,29.6v7.9a2.69,2.69,0,0,1,.62,1.64,2.56,2.56,0,0,1-.89,1.94l-.68-.69a1.57,1.57,0,0,0,.61-1.25,1.54,1.54,0,1,0-2.47,1.25l-.67.68a2.54,2.54,0,0,1-.9-1.93,2.48,2.48,0,0,1,.57-1.64V25.24a.94.94,0,0,1,.89-.86H38.72a.93.93,0,0,1,.89.85V37.51a2.82,2.82,0,0,1,.57,1.63,2.58,2.58,0,0,1-.89,1.94l-.68-.69a1.6,1.6,0,0,0,.61-1.25,1.54,1.54,0,1,0-2.47,1.25l-.67.69a2.49,2.49,0,0,1-.89-1.94,2.75,2.75,0,0,1,.61-1.64V29.67H34.72V46.25l.64.42V48H27.93V46.67l.83-.41V41.14H26.6v5.11l.76.42V48H19.87V46.67l.76-.42V29.6Zm2.6-15.66H33.34a.88.88,0,0,1,.88.86v7.46a.87.87,0,0,1-.88.84H22.09a.83.83,0,0,1-.82-.84V14.8A.84.84,0,0,1,22.09,13.94Zm2.76,5.48A1.46,1.46,0,1,1,26.28,18a1.45,1.45,0,0,1-1.43,1.46ZM29.17,18a1.45,1.45,0,0,0,1.43,1.46h0A1.46,1.46,0,1,0,29.17,18Zm-3.59,0a.73.73,0,1,1-.73-.74.72.72,0,0,1,.52.21A.7.7,0,0,1,25.58,18Zm4.29,0a.74.74,0,1,0,1.47,0,.74.74,0,1,0-1.47,0Z"></path></g></g></svg>
+                            </div>
+                            <div class="container footeranchors">
+                                <div class="row footeranchorlinks">
+                                  <div class="col">
+                                    <a class="anchortags" href=""><br><br>
+                                        Services</a><br>
+                                    <a class="anchortags" href="">Case Studies</a><br>
+                                    <a class="anchortags" href="">Resources</a><br>
+                                    <a class="anchorlinks" style="color: #e03131;" href="">Let's Talk</a><br>
+                                  </div>
+                                  <div class="col"><br><br><br>
+                                    <a class="anchortags" href="">Our Company</a><br>
+                                    <a class="anchortags" href="">Careers</a><br>
+                                    <a class="anchortags" href="">Purpose</a><br>
+                                    <a class="anchortags" href="">Blog
+                                    </a><br>
+                                    <a class="anchortags" href="">Sponsor
+                                    </a><br>
+                                  </div>
+                                  <div class="col"><br><br>
+                                    <a class="anchortags" href="">Mastodon</a><br>
+                                    <a class="anchortags" href="">GitHub</a><br>
+                                    <a class="anchortags" href="">Instagram</a><br>
+                                    <a class="anchortags" href="">YouTube
+                                    </a><br>
+                                    <a class="anchortags" href="">twitch
+                                    </a><br>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="container">
+                            <div class="row footertrademarks">
+                                <div class="footerAddress">
+                                    <div style="width: 100%;">
+                                        <p style="color: #B5A895; width: 100%;"><br><br>
+                                            © 2024 thoughtbot, inc. <br>
+                                            The design of a robot and thoughtbot are registered trademarks of  thoughtbot, inc.
+                                        </p>
+                                    </div>
+                                    <div class="footercontacts" style="color: #B5A895; width: 100%;">
+                                        <div><br><br>
+                                            <a style="color: #B5A895; font-size: 15px;" class="col-12" href="">US: +1 (877) 9-ROBOTS</a> <a style="color: #B5A895;" class="col-12" href=""> UK: +44 (0)20 3807 0560</a>
+                                        </div>
+                                        <p style="width: 100%;">Beware of fraudulent thoughtbot job listings <a style="color: #B5A895;" href="">Learn more</a></p>
+                                        <div style="display: flex; gap: 1em; width: 100%;">
+                                            <a class="Conduct" style="color: #B5A895; width: 70%;" href="">Code of Conduct</a>
+                                            <a class="Conduct" style="color: #B5A895; width: 100%;" href="">Accessibility Statement</a>
+                                            <a class="Conduct" style="color: #B5A895; width: 100%;" href="">Privacy Policy</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><br><br>
+
+                
+
+
+</body>
+</html>
