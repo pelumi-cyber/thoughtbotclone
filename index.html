@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid red; */
+        }
         .header{
             overflow: hidden;
         }
@@ -167,9 +173,7 @@ button.a :hover{
 .abutton{
     color: #fff;
 }
-.burger{
-    /* display: none; */
-}
+
 .searchbar{
     display: none;
     
@@ -219,6 +223,8 @@ gap: 5em;
 
 }
 section.section10{
+    display: flex;
+    justify-content: center;
     background-color:  #f0f0f8;
     justify-content: space-evenly;
     /* padding-top: 40em; */
@@ -238,40 +244,7 @@ section.foot{
          #29292c;
     }
     .burger{display: none;}
-    @media (max-width:800px) {
-       section.introduction, section.section2, section.section3, section.section4, section.section5, section.otherserv, section.section6, section.services, section.section7, section.section8, section.section9, section.section10,.searchbar, .footerAddress,.footerarea.anchorlinks,.anchortags.footeranchorlinks,.footercontacts , .burger{
-           display: block;
-           min-width: 100%;
-           margin-inline: auto;
-           
-           
-           
-           height:100%;
-
-    } 
-    .button{
-        display: none;
-        
-    }
-    .searchbar{
-        display: block;
-        align-content: center;
-        
-        
-    }
-    .buttonn{
-        display: none;}
-    .links{
-        display: none;}
-        
-        .searchbar{
-            display: block;
-            align-content: center;
-        }
-        .burger{display: block;}
-        
-    }
-
+   
 .footerAddress{
     display: flex; 
     justify-content: space-between;
@@ -297,6 +270,62 @@ section.foot{
     background-color: white;
     
 }
+.thoughtbot2{
+    display: none;
+}
+.quoteauthor{
+    display: flex;
+}
+@media (max-width:800px) {
+       section.introduction,.services, section.section2, section.section3, section.section4,section.subdiv, section.section5, section.otherserv,section.services section.section6,section.quoteauthor section.services, section.section7, section.section8, section.section9, section.section10,section.searchbar, section.footerAddress,section.footerarea,section.anchorlinks,section.anchortags,section.footeranchorlinks,section.footerconta,section.contacts .burger{
+           display: block;
+           min-width: 100%;
+           margin-inline: auto;
+           
+           
+           
+           height:100%;
+           overflow: hidden;
+
+    } 
+    .header{
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 50%;
+}
+    
+    .button{
+        display: none;
+        
+    }
+    .searchbar{
+        display: block;
+        align-content: center;
+        
+        
+    }
+    .buttonn{
+        display: none;}
+    .links{
+        display: none;}
+        
+        .searchbar{
+            display: block;
+            align-content: center;
+        }
+        .burger{display: block;}
+        .thoughtbot1{
+            display: none;
+        }
+        .thoughtbot2{
+            display: block;
+        }
+        
+    }
+
 
     </style>
 
@@ -304,7 +333,12 @@ section.foot{
 <body>
     <header class="header" style="width: 100%;">
     <div class="container-fluid  pt-3 ps-5 d-flex pe-5 align-items-center justify-content-between  gap-4 header ">
-        <div class=" text-danger fs-4 fw-semibold "><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 65.19 65.19" role="img" aria-labelledby="ap8f9m05tmkwsr0j2n73bl886zliahjt" class="logo-ralph-only"><title id="ap8f9m05tmkwsr0j2n73bl886zliahjt ">thoughtbot</title><defs><style>.cls-1{fill:#e03131;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><path class="cls-1" d="M32.6,65.19A32.6,32.6,0,1,0,0,32.6,32.59,32.59,0,0,0,32.6,65.19Z"></path><path class="cls-2" d="M33,7.55a10.48,10.48,0,0,1,7.62,3l.8-1.16A11.9,11.9,0,0,0,33,6.15a11.94,11.94,0,0,0-8.44,3.21l.8,1.16A10.48,10.48,0,0,1,33,7.55Zm5.32,4.51a8.62,8.62,0,0,0-5.24-1.65h0a8.61,8.61,0,0,0-5.23,1.65,6,6,0,0,0-.87.8l-.81-1.17A9.59,9.59,0,0,1,33.11,9a9.67,9.67,0,0,1,6.8,2.56l-.8,1.17A6.23,6.23,0,0,0,38.35,12.06ZM33,13.39A6.53,6.53,0,0,1,37.52,15l.81-1.16a8.37,8.37,0,0,0-10.62,0l.81,1.17A6.52,6.52,0,0,1,33,13.39ZM23.12,35.12v9.37a3.1,3.1,0,0,1,.73,1.94,3.05,3.05,0,0,1-1.05,2.31L22,47.92a1.86,1.86,0,0,0,.73-1.48,1.83,1.83,0,1,0-3.65,0,1.86,1.86,0,0,0,.72,1.47l-.8.82a3,3,0,0,1-1.06-2.29,2.9,2.9,0,0,1,.68-1.95V29.94a1.1,1.1,0,0,1,1.05-1H45.93a1.11,1.11,0,0,1,1.06,1V44.5a3.34,3.34,0,0,1,.68,1.94,3,3,0,0,1-1.05,2.29l-.81-.81a1.9,1.9,0,0,0,.72-1.48,1.83,1.83,0,1,0-2.93,1.48l-.8.82a3,3,0,0,1-1.06-2.3,3.31,3.31,0,0,1,.73-1.95V35.2H41.19V54.87l.76.5V57H33.14V55.37l1-.48V48.81H31.56v6.06l.9.5V57H23.57V55.37l.91-.5V35.12Zm3.09-18.58H39.56a1,1,0,0,1,1,1V26.4a1,1,0,0,1-1,1H26.21a1,1,0,0,1-1-1V17.56A1,1,0,0,1,26.21,16.54ZM29.48,23a1.73,1.73,0,1,1,1.7-1.72A1.71,1.71,0,0,1,29.48,23Zm5.12-1.72A1.72,1.72,0,0,0,36.31,23h0a1.73,1.73,0,1,0-1.71-1.72Zm-4.25,0a.87.87,0,1,1-.87-.89.9.9,0,0,1,.62.26A.93.93,0,0,1,30.35,21.31Zm5.09,0a.87.87,0,1,0,1.74,0,.87.87,0,1,0-1.74,0Z"></path></svg>thoughtbot</div>
+        <div class=" text-danger fs-4 fw-semibold thoughtbot1 "><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 65.19 65.19" role="img" aria-labelledby="ap8f9m05tmkwsr0j2n73bl886zliahjt" class="logo-ralph-only"><title id="ap8f9m05tmkwsr0j2n73bl886zliahjt ">thoughtbot</title><defs><style>.cls-1{fill:#e03131;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><path class="cls-1" d="M32.6,65.19A32.6,32.6,0,1,0,0,32.6,32.59,32.59,0,0,0,32.6,65.19Z"></path><path class="cls-2" d="M33,7.55a10.48,10.48,0,0,1,7.62,3l.8-1.16A11.9,11.9,0,0,0,33,6.15a11.94,11.94,0,0,0-8.44,3.21l.8,1.16A10.48,10.48,0,0,1,33,7.55Zm5.32,4.51a8.62,8.62,0,0,0-5.24-1.65h0a8.61,8.61,0,0,0-5.23,1.65,6,6,0,0,0-.87.8l-.81-1.17A9.59,9.59,0,0,1,33.11,9a9.67,9.67,0,0,1,6.8,2.56l-.8,1.17A6.23,6.23,0,0,0,38.35,12.06ZM33,13.39A6.53,6.53,0,0,1,37.52,15l.81-1.16a8.37,8.37,0,0,0-10.62,0l.81,1.17A6.52,6.52,0,0,1,33,13.39ZM23.12,35.12v9.37a3.1,3.1,0,0,1,.73,1.94,3.05,3.05,0,0,1-1.05,2.31L22,47.92a1.86,1.86,0,0,0,.73-1.48,1.83,1.83,0,1,0-3.65,0,1.86,1.86,0,0,0,.72,1.47l-.8.82a3,3,0,0,1-1.06-2.29,2.9,2.9,0,0,1,.68-1.95V29.94a1.1,1.1,0,0,1,1.05-1H45.93a1.11,1.11,0,0,1,1.06,1V44.5a3.34,3.34,0,0,1,.68,1.94,3,3,0,0,1-1.05,2.29l-.81-.81a1.9,1.9,0,0,0,.72-1.48,1.83,1.83,0,1,0-2.93,1.48l-.8.82a3,3,0,0,1-1.06-2.3,3.31,3.31,0,0,1,.73-1.95V35.2H41.19V54.87l.76.5V57H33.14V55.37l1-.48V48.81H31.56v6.06l.9.5V57H23.57V55.37l.91-.5V35.12Zm3.09-18.58H39.56a1,1,0,0,1,1,1V26.4a1,1,0,0,1-1,1H26.21a1,1,0,0,1-1-1V17.56A1,1,0,0,1,26.21,16.54ZM29.48,23a1.73,1.73,0,1,1,1.7-1.72A1.71,1.71,0,0,1,29.48,23Zm5.12-1.72A1.72,1.72,0,0,0,36.31,23h0a1.73,1.73,0,1,0-1.71-1.72Zm-4.25,0a.87.87,0,1,1-.87-.89.9.9,0,0,1,.62.26A.93.93,0,0,1,30.35,21.31Zm5.09,0a.87.87,0,1,0,1.74,0,.87.87,0,1,0-1.74,0Z"></path></svg> thoughtbot</div>
+        <div class="thoughtbot2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 65.19 65.19" role="img" aria-labelledby="ap8f9m05tmkwsr0j2n73bl886zliahjt" class="logo-ralph-only"><title id="ap8f9m05tmkwsr0j2n73bl886zliahjt ">thoughtbot</title><defs><style>.cls-1{fill:#e03131;}.cls-2{fill:#fff;fill-rule:evenodd;}</style></defs><path class="cls-1" d="M32.6,65.19A32.6,32.6,0,1,0,0,32.6,32.59,32.59,0,0,0,32.6,65.19Z"></path><path class="cls-2" d="M33,7.55a10.48,10.48,0,0,1,7.62,3l.8-1.16A11.9,11.9,0,0,0,33,6.15a11.94,11.94,0,0,0-8.44,3.21l.8,1.16A10.48,10.48,0,0,1,33,7.55Zm5.32,4.51a8.62,8.62,0,0,0-5.24-1.65h0a8.61,8.61,0,0,0-5.23,1.65,6,6,0,0,0-.87.8l-.81-1.17A9.59,9.59,0,0,1,33.11,9a9.67,9.67,0,0,1,6.8,2.56l-.8,1.17A6.23,6.23,0,0,0,38.35,12.06ZM33,13.39A6.53,6.53,0,0,1,37.52,15l.81-1.16a8.37,8.37,0,0,0-10.62,0l.81,1.17A6.52,6.52,0,0,1,33,13.39ZM23.12,35.12v9.37a3.1,3.1,0,0,1,.73,1.94,3.05,3.05,0,0,1-1.05,2.31L22,47.92a1.86,1.86,0,0,0,.73-1.48,1.83,1.83,0,1,0-3.65,0,1.86,1.86,0,0,0,.72,1.47l-.8.82a3,3,0,0,1-1.06-2.29,2.9,2.9,0,0,1,.68-1.95V29.94a1.1,1.1,0,0,1,1.05-1H45.93a1.11,1.11,0,0,1,1.06,1V44.5a3.34,3.34,0,0,1,.68,1.94,3,3,0,0,1-1.05,2.29l-.81-.81a1.9,1.9,0,0,0,.72-1.48,1.83,1.83,0,1,0-2.93,1.48l-.8.82a3,3,0,0,1-1.06-2.3,3.31,3.31,0,0,1,.73-1.95V35.2H41.19V54.87l.76.5V57H33.14V55.37l1-.48V48.81H31.56v6.06l.9.5V57H23.57V55.37l.91-.5V35.12Zm3.09-18.58H39.56a1,1,0,0,1,1,1V26.4a1,1,0,0,1-1,1H26.21a1,1,0,0,1-1-1V17.56A1,1,0,0,1,26.21,16.54ZM29.48,23a1.73,1.73,0,1,1,1.7-1.72A1.71,1.71,0,0,1,29.48,23Zm5.12-1.72A1.72,1.72,0,0,0,36.31,23h0a1.73,1.73,0,1,0-1.71-1.72Zm-4.25,0a.87.87,0,1,1-.87-.89.9.9,0,0,1,.62.26A.93.93,0,0,1,30.35,21.31Zm5.09,0a.87.87,0,1,0,1.74,0,.87.87,0,1,0-1.74,0Z"></path></svg>
+
+        </div>
+        
         <div class="row links">
             <div style=" display: flex; gap: 10px;">
                 <a href="">Services <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true" class="chevron">
@@ -321,7 +355,7 @@ section.foot{
            <!-- <a sty href=""><i class="fa fa-search" aria-hidden="true"></i></a> -->
            <button class="btnsearch" style="width: 50px; height: 50px; border-radius: 50%;">
                 <a href=""><i style="color: black;" class="fa fa-search" aria-hidden="true"></i></a>
-                <div class="searchbar"><input type="text" name="search" id="mobile-search" placeholder="Enter search term..." class="st-default-search-input" autocomplete="off" autocorrect="off" autocapitalize="off"></div>
+               
                 <div class="abutton">
            
             <button type="button" class="btn btn-danger btn-lg pb-4 buttonn">Let's get started!</button>
@@ -383,7 +417,7 @@ section.foot{
                     
                     
                 </div>
-                <div><img height="400" loading="lazy" width="400" alt="" src="https://thoughtbot-website.cdn.prismic.io/thoughtbot-website/f5f3fe2a-7d24-42bd-981f-a70e8b8d2e81_Logo-Grid_V2.svg"></div>
+                <div class="section3"><img height="400" loading="lazy" width="400" alt="" src="https://thoughtbot-website.cdn.prismic.io/thoughtbot-website/f5f3fe2a-7d24-42bd-981f-a70e8b8d2e81_Logo-Grid_V2.svg"></div>
                </section><br><br><br><br><br><br><br><br><br><br>
                 <section class="container section3">
                     <div><img height="420" loading="lazy" width="600" alt="collage of 3 images: person working at a laptop in a garden, board with project documents pinned to it, and a collection of thoughtbot coffee mugs" src="https://images.prismic.io/thoughtbot-website/dd2f4cfd-e63f-41f9-9f94-7c2c1b63689f_4.png?auto=compress,format"></div>
@@ -455,7 +489,7 @@ section.foot{
     Working with thoughtbot was an exceptional experience.</b> I can’t say <br>enough great things about the entire team, their process, their workflow,  <br>and the quality of the code. They have a talented team of designers and <br>developers working there.
                     </div>
                     <br>
-                    <div style="display: flex; gap: 15em; margin-inline: auto;" >
+                    <div style=" gap: 15em; margin-inline: auto;" >
                     <div class="ps-5 quoteauthor" style="display: flex; gap: 0.9em; margin-left: 0.8em ; margin-right: p-5">
                         <img style="border: 1px; border-radius: 50%;" alt="" class="quote__author avatar quote__author-avatar" height="45" loading="lazy" width="45" src="https://images.prismic.io/thoughtbot-website/b76b5a91-5a64-454c-b608-5d788172c830_Vail+Weymann.jpg?auto=compress,format ">
                         <p><b>Vail Weymann </b> <br>
@@ -553,7 +587,7 @@ Our team is driven by our purpose and values; we continually <br>improve our pro
 
                 </section>
                 <br><br><br><br><br>
-                <section class="container-fluid mt-5 p-5 d-flex justify-content-between align-content-center section10 ">
+                <section class="container-fluid mt-5 p-5    section10 ">
                     <div><img height="250" loading="lazy" width="500" alt="coworking photo with thoughtbot logo" src="https://images.prismic.io/thoughtbot-website/ea6d3d77-599c-434c-908a-654e01f5282a_incubator_image.png?auto=compress,format"></div>
                     <div>
                         <h6 style="font-size: 0.7emem; color: #67676E;">New</h6>
